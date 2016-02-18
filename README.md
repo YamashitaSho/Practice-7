@@ -4,7 +4,11 @@
 格納されたデータからコマンドに従い、文字列を検索する。検索には*を使用できる。<br>
 
 ## コンパイル方法
-gcc -Wall -o tcusrs tcusrs.c<br>
+tcusrsに入って
+make
+gcc -Wall -o tcusers main.o
+または
+compile.shを実行
 
 ## 実行方法
 dataフォルダに読み込ませるCSVファイルを格納しておく。<br>
